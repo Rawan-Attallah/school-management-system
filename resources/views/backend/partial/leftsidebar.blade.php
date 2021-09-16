@@ -91,7 +91,7 @@
             </li>
             @endcanany
 
-            @canany(['exam.index', 'exam.grade.index', 'exam.rule.index'])
+             @canany(['exam.index', 'exam.grade.index', 'exam.rule.index'])
             <li class="treeview">
                 <a href="#"> <i class="fa icon-exam"></i>
                     <span>Exam</span>
@@ -123,7 +123,7 @@
             </li>
             @endcanany
 
-            @canany(['marks.index', 'result.index'])
+             @canany(['marks.index', 'result.index'])
             <li class="treeview">
                 <a href="#"> <i class="fa icon-markmain"></i>
                     <span>Marks & Result</span>
@@ -146,7 +146,7 @@
                     @endcan
                 </ul>
             </li>
-            @endcanany
+            @endcanany 
 
             @can(['promotion.create'])
             <li>
@@ -196,7 +196,7 @@
                 </li>
             @endcan
 
-            <li class="treeview">
+           <li class="treeview">
                 <a href="#">
                     <i class="fa fa-file-pdf-o"></i>
                     <span>Reports</span>
@@ -279,10 +279,10 @@
                 @endrole
                 </ul>
 
-            </li>
+            </li> --}}
 
             <!-- Frontend Website links and settings -->
-            @notrole('Student')
+           @notrole('Student')
             @if($frontend_website)
                 <li class="treeview">
                     <a href="#"><i class="fa fa-globe"></i>
@@ -449,17 +449,17 @@
                         </li>
                     @endcan
 
-                    {{--<li>--}}
-                    {{--<a href="#">--}}
-                    {{--<i class="fa fa-download"></i> <span>Backup</span>--}}
-                    {{--</a>--}}
-                    {{--</li>--}}
+                    <li>
+                    <a href="#">
+                   <i class="fa fa-download"></i> <span>Backup</span>
+                    </a>
+                    </li>
 
-                    {{--<li>--}}
-                    {{--<a href="#">--}}
-                    {{--<i class="fa fa-upload"></i> <span>Restore</span>--}}
-                    {{--</a>--}}
-                    {{--</li>--}}
+                  <li>
+                  <a href="#">
+                  <i class="fa fa-upload"></i> <span>Restore</span>--}}
+                   </a>
+                    </li>
 
                 </ul>
             </li>
