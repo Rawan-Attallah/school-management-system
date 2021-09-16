@@ -64,6 +64,7 @@
                     <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
+            {{-- Test git hub --}}
                 </a>
                 <ul class="treeview-menu">
                     @can('academic.class')
