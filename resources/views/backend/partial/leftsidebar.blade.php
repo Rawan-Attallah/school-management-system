@@ -66,6 +66,7 @@
             </span>
             {{-- Test git hub --}}
             {{-- Test git hub --}}
+            {{-- Test git hub --}}
                 </a>
                 <ul class="treeview-menu">
                     @can('academic.class')
